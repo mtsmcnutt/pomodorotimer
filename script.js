@@ -22,7 +22,7 @@ const saveBtn = document.getElementById('save-btn');
 // Event listeners for interval buttons
 pomodoroIntervalBtn.addEventListener('click', () => {
   currentInterval = 'pomodoro';
-  timeLeft = 25 * 60;
+  timeLeft = 5 * 60;
   updateTimeLeftTextContent();
 });
 
