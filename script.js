@@ -18,11 +18,11 @@ const fontColorSelect = document.getElementById('font-color');
 const saveBtn = document.getElementById('save-btn');
 
 // Event listeners for interval buttons
-pomodoroIntervalBtn.addEventListener('click', () => {
-  currentInterval = 'pomodoro';
-  timeLeft = 5 * 60;
-  updateTimeLeftTextContent();
-});
+// pomodoroIntervalBtn.addEventListener('click', () => {
+//  currentInterval = 'pomodoro';
+//  timeLeft = 5 * 60;
+//  updateTimeLeftTextContent();
+//});
 
 
 // Event listener for start/stop button
