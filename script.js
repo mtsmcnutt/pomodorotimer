@@ -26,17 +26,6 @@ pomodoroIntervalBtn.addEventListener('click', () => {
   updateTimeLeftTextContent();
 });
 
-shortBreakIntervalBtn.addEventListener('click', () => {
-  currentInterval = 'short-break';
-  timeLeft = 5 * 60;
-  updateTimeLeftTextContent();
-});
-
-longBreakIntervalBtn.addEventListener('click', () => {
-  currentInterval = 'long-break';
-  timeLeft = 10 * 60;
-  updateTimeLeftTextContent();
-});
 
 // Event listener for start/stop button
 startStopBtn.addEventListener('click', () => {
